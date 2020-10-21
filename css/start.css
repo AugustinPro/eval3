@@ -28,10 +28,8 @@ a:hover {
     background: lime;
 }
 .app-top {
-    background: yellow;
 }
 .app-bottom {
-    background: blue;
     color: #fff;
     padding: 20px;
 }
@@ -40,7 +38,6 @@ a:hover {
 ---------------------------------------------------------------------- */
 .app-nav {
     width: 50px;
-    background: red;
     color: #fff;
 }
 /* ----------------------------------------------------------------------
@@ -53,7 +50,7 @@ a:hover {
     @@@ Partie album
 ---------------------------------------------------------------------- */
 .app-content .album {
-    background: purple;
+    background-image: linear-gradient(#000, #313131);
     padding: 20px;
 }
 .app-content .cover {
@@ -107,6 +104,6 @@ a:hover {
 }
 .app-bottom .controls {
     width: 30%;
-    background: cornflowerblue;
+    background: #313131;
     border-left: 1px solid rgba(255, 255, 255, 0.1);
 }

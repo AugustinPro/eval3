@@ -4,6 +4,8 @@
 .app-wrapper {
     display: flex;
     flex-flow: column;
+    height: 100vh;
+    background-image: linear-gradient(#000, #313131);
 }
 
 
@@ -12,27 +14,33 @@
 
 .app-top {
     display: flex;
+    flex-grow: 1;
 }
 
 .app-content {
     flex-grow: 1;
+    background-image: linear-gradient(#000, #313131);
 }
 
 .album {
     display: flex;
 }
 
-.tracklist {
-
+.track-item {
+    display: flex;
+    justify-content: space-between;
 }
 
 .app-nav {
     display: flex;
     flex-flow: column;
-    justify-content: space-between;
+    justify-content: space-around;
+    background-color: #313131;
 }
 
-
+.app-nav a {
+    text-align: center;
+}
 
 /* BOTTOM PART OF THE PAGE */
 
@@ -40,10 +48,11 @@
     display: flex;
     flex-flow: row;
     align-content: flex-end;
+    background: #313131;
 }
 
 .current {
-    flex-grow: 3;
+    flex-grow: 10;
     display: flex;
 }
 
@@ -54,8 +63,10 @@
 }
 
 .controls {
-    flex-grow: 1;
     display: flex;
     justify-content: center;
-    align-content: center;
+}
+
+.controls a {
+    margin: auto;
 }
