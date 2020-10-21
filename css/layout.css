@@ -1,0 +1,61 @@
+
+/* MAIN  */
+
+.app-wrapper {
+    display: flex;
+    flex-flow: column;
+}
+
+
+
+/* TOP PART OF THE PAGE */
+
+.app-top {
+    display: flex;
+}
+
+.app-content {
+    flex-grow: 1;
+}
+
+.album {
+    display: flex;
+}
+
+.tracklist {
+
+}
+
+.app-nav {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+
+
+/* BOTTOM PART OF THE PAGE */
+
+.app-bottom {
+    display: flex;
+    flex-flow: row;
+    align-content: flex-end;
+}
+
+.current {
+    flex-grow: 3;
+    display: flex;
+}
+
+.current-details {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.controls {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
